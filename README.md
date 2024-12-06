@@ -246,7 +246,7 @@ Other
 ![image](https://github.com/user-attachments/assets/f9fa40bf-7661-4bf3-8946-9739fc34d2dd)
 
 
-
+And that is how an Admin configures systems that are designed to be used by employees at a company.
 
 
 
