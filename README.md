@@ -33,7 +33,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Help Topics (For when users create a ticket)
 
 <h2>Configuration Steps</h2>
-Get IP address of osTicket Virtual Machine from Azure
+Get Public IP address of osTicket Virtual Machine from Azure
 <p>
 
 ![IP Address](https://github.com/user-attachments/assets/9dd4ebec-b527-440e-b4b0-22ceb390b0ae)
