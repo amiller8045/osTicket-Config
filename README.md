@@ -117,7 +117,7 @@ Grant All Permissions and Add Role
 
 Configure Departments
 
-The deparment a person is assigned to will determine ticket visibility.
+The department a person is assigned to will determine ticket visibility.
 Admin Panel -> Agents -> Departments
 
 ![Departments](https://github.com/user-attachments/assets/93d64db4-a24b-4f63-851a-6bb50a04dcb2)
