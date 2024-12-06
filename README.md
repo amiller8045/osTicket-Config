@@ -196,8 +196,9 @@ Agent Panel -> Users -> Add New
 
 Configure SLA
 
-SLA stands for service level agreement. It refers to a document that outlines a commitment between a service provider and a client, including details of the service, the standards the provider must adhere to, and the metrics to measure the performance.
 Admin Panel -> Manage -> SLA- Add New SLA Plan
+
+SLA stands for service level agreement. It refers to a document that outlines a commitment between a service provider and a client, including details of the service, the standards the provider must adhere to, and the metrics to measure the performance.
 
 THe SLA grace period is a specified amount of time before penalties are applied for failing to meet the SLA's standards.
 
