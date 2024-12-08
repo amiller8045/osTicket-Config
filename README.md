@@ -70,30 +70,61 @@ Username and Password is the same from the osTicket Basic Instillation
 <p>
 </p>
 <br />
-2) Configure Roles (for grouping permissions)
+<h2>Admin Panel</h2>
 
-Admin Panel -> Agents -> Roles
+You will know that you are in the Admin Panel when it says "Agent Panel" in the top right corner.
 
-
-Configuring Roles grants different levels of actions to whoever is assigned to that role.
-
-Notice that the top right corner will say "Agent Panel" indicating that you are in the Admin Panel
-
-Click Admin Panel
 
 ![admin](https://github.com/user-attachments/assets/87d7b2dc-92c4-44b0-b826-5860d7b4f2d0)
 
 
-Hover over Agents then click Roles
 
-![agents-roles](https://github.com/user-attachments/assets/67cfb1dc-16e9-4736-b32c-4fae29116dcf)
+Take note off the features we will be using in the Admin Panel.
 
-Add New Role
+"Agents" is where we will create Roles, Departments, Teams and Agents (workers).
+![Agents](https://github.com/user-attachments/assets/eea25ba6-c57f-486e-a0b1-eba6614207b4)
 
-![add new role](https://github.com/user-attachments/assets/4306162b-c353-4d73-a427-3cd987445f29)
+  "Manage" is where we will create Help Topics.
+   
+   ![Manage](https://github.com/user-attachments/assets/85eba74b-2fef-4d72-9805-82b4d4c275e8)
+
+Also settings
+
+![settings](https://github.com/user-attachments/assets/6063a1c9-2c75-4c71-8331-465d8fd9c0c0)
 
 
-Type "Supreme Admin"
+<h2>Agent Panel</h2>
+
+You will know that you are in the Agent Panel when it says "Admin Panel" in the top right corner.
+
+![Agent Panel](https://github.com/user-attachments/assets/46692b70-4d0b-4316-8c72-2f79a2367507)
+
+For this lab we will only create "Users" in the Agent Panel.
+
+![users](https://github.com/user-attachments/assets/a862fc7a-9245-49cb-a4b4-2d995d5ff1bd)
+
+
+
+
+*****Now let's complete our post-install configuration.****
+
+2) Configure Roles (for grouping permissions)
+
+*****Admin Panel -> Agents -> Roles -> Add New Role*****
+
+
+Configuring Roles grants different levels of actions to whoever is assigned to that role.
+
+
+
+Click Admin Panel
+
+
+
+
+
+
+Type "Supreme Admin" in the blank field and add role.
 
 ![Supreme](https://github.com/user-attachments/assets/be1aa1bd-e295-4976-928f-64c4c55260b5)
 
@@ -127,13 +158,8 @@ Tasks
 
 The department a person is assigned to will determine ticket visibility.
 
-Admin Panel -> Agents -> Departments
+Admin Panel -> Agents -> Departments -> Add New Department
 
-![departments](https://github.com/user-attachments/assets/5d6069f0-3d1e-4ae0-9c85-25b9210e6dd5)
-
-Add Department
-
-![add dept](https://github.com/user-attachments/assets/e961caa3-2829-4a97-920d-6999fae76a5c)
 
 
 Title Department "SysAdmins", make it Top-Level and create
@@ -145,11 +171,18 @@ Title Department "SysAdmins", make it Top-Level and create
 
 
 
-Configure Teams
+4) Configure Teams
 
 Teams are groups of people from different departments that come together to handle various aspects of a business function.
 
-Admin Panel -> Agents -> Teams (Pull Agents from different Departments)
+Admin Panel -> Agents -> Teams 
+
+We will pull Agents from different Departments later.
+
+Click Teams and Add New Team
+
+
+
 ![Teams](https://github.com/user-attachments/assets/e24b3f4a-b777-4e81-aa3b-439942c71db9)
 
 
