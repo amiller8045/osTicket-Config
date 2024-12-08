@@ -12,7 +12,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- osTicket Admin/Admin Panel http://localhost/osTicket/scp/login.php
+- osTicket Admin/Agent Panel http://localhost/osTicket/scp/login.php
 - osTicket Support Center for endusers http://localhost/osTicket
 
 <h2>Operating Systems Used </h2>
