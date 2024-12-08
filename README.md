@@ -31,99 +31,116 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Help Topics (For when users create a ticket)
 
 <h2>Configuration Steps</h2>
-Get Public IP address of osTicket Virtual Machine from Azure
+1) Sign in to the virtual machine using Remote Desktop Connection with the public ip address.
 <p>
 
-![IP Address](https://github.com/user-attachments/assets/9dd4ebec-b527-440e-b4b0-22ceb390b0ae)
+![ip address](https://github.com/user-attachments/assets/6b56414b-1807-46e9-ad57-b2b68123fb90)
 
 
 </p>
 <p>
 
-</p>
-<br />
-Use Remote Desktop to log into Virtual Machine
+ 
 
-On your computer, search for "Remote Desktop Connection" and use the public IP address to connect to the Windows Virtual Machine.
 
-<p>
 
-![Remote Desktop](https://github.com/user-attachments/assets/5bed827d-84fb-4e99-aa9c-3c56dd290885)
-
-</p>
-<p>
 </p>
 <br />
-Within Virtual Machine browse to osTicket login page and sign in
 
-Use the credentials you created when installing the osTicket prereques
 
 <p>
 
-![osTicket Login](https://github.com/user-attachments/assets/313e69ed-e465-4ce0-9337-0b6bdac38282)
-
+![RDP](https://github.com/user-attachments/assets/1bb43f38-8d14-40d8-b05d-a9513ab85f27)
 
 </p>
 <p>
 </p>
 <br />
-Configure Roles
 
-Configuring Roles grants different levels of actions to whoever is assigned to that role.
+Sign in to osTicket Admin/Agent Panel
+<p>
+
+![os login](https://github.com/user-attachments/assets/4f23c248-cdec-48be-b9d0-1e241a70cb38)
+
+Username and Password is the same from the osTicket Basic Instillation 
+
+ ![os info](https://github.com/user-attachments/assets/925cd202-f93b-4660-a419-a6f46b56580b)
+
+</p>
+<p>
+</p>
+<br />
+2) Configure Roles (for grouping permissions)
 
 Admin Panel -> Agents -> Roles
 
+
+Configuring Roles grants different levels of actions to whoever is assigned to that role.
+
 Notice that the top right corner will say "Agent Panel" indicating that you are in the Admin Panel
 
-![Admin Panel](https://github.com/user-attachments/assets/853a619d-6199-463f-85e1-b3c27cc258fe)
+Click Admin Panel
+
+![admin](https://github.com/user-attachments/assets/87d7b2dc-92c4-44b0-b826-5860d7b4f2d0)
 
 
+Hover over Agents then click Roles
 
-
-
-
-
-
-
-![Agents](https://github.com/user-attachments/assets/5b71a2a9-d06f-41ae-a5ee-fc26c9ee29d0)
-
-![Roles](https://github.com/user-attachments/assets/b134ba55-2afe-4760-b136-e7f07a63f310)
-
-
-
-
-
-
-
+![agents-roles](https://github.com/user-attachments/assets/67cfb1dc-16e9-4736-b32c-4fae29116dcf)
 
 Add New Role
 
-![Supreme Admin](https://github.com/user-attachments/assets/b281b76e-ee67-4663-a275-367ceb471fad)
+![add new role](https://github.com/user-attachments/assets/4306162b-c353-4d73-a427-3cd987445f29)
 
 
-Title Role "Supreme Admin"
-![Supreme Admin](https://github.com/user-attachments/assets/992277b3-c498-4511-b89a-e7d62dfe85a6)
+Type "Supreme Admin"
+
+![Supreme](https://github.com/user-attachments/assets/be1aa1bd-e295-4976-928f-64c4c55260b5)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 Grant All Permissions and Add Role
 
-![ALL](https://github.com/user-attachments/assets/3f7a4136-08a0-4c82-9b5c-87f4fd5d2ea3)
+Tickets
 
-![Permissions](https://github.com/user-attachments/assets/6208dbcb-7a58-4ebb-91c6-5b1c29dcb982)
+![permissions](https://github.com/user-attachments/assets/ad074dc0-cd04-4902-a73b-1b89431095d9)
 
 
-Configure Departments
+Tasks
+
+![tasks](https://github.com/user-attachments/assets/831acbef-b5ec-41c6-8514-e1e4f6048a2b)
+
+
+3) Configure Departments
 
 The department a person is assigned to will determine ticket visibility.
+
 Admin Panel -> Agents -> Departments
 
-![Departments](https://github.com/user-attachments/assets/93d64db4-a24b-4f63-851a-6bb50a04dcb2)
+![departments](https://github.com/user-attachments/assets/5d6069f0-3d1e-4ae0-9c85-25b9210e6dd5)
 
-Title Department "SysAdmins" and create
+Add Department
 
-![Create Department](https://github.com/user-attachments/assets/d817f0ed-bb83-43ec-861d-70e1b79e9d35)
+![add dept](https://github.com/user-attachments/assets/e961caa3-2829-4a97-920d-6999fae76a5c)
 
+
+Title Department "SysAdmins", make it Top-Level and create
+
+![SysAdmins](https://github.com/user-attachments/assets/be34a860-84fd-4ce6-a87b-1617e90b099a)
+
+  ![Create dept](https://github.com/user-attachments/assets/6c41d7c4-206a-41be-8631-0a4cc7d96d67)
 
 
 
