@@ -31,7 +31,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Help Topics (For when users create a ticket)
 
 <h2>Configuration Steps</h2>
-1) Sign in to the virtual machine using Remote Desktop Connection with the public ip address.
+1) Sign in to the virtual machine using Remote Desktop Connection with the public ip address**
 <p>
 
 ![ip address](https://github.com/user-attachments/assets/6b56414b-1807-46e9-ad57-b2b68123fb90)
@@ -158,7 +158,7 @@ Tasks
 
 The department a person is assigned to will determine ticket visibility.
 
-Admin Panel -> Agents -> Departments -> Add New Department
+**Admin Panel -> Agents -> Departments -> Add New Department**
 
 
 
@@ -175,65 +175,131 @@ Title Department "SysAdmins", make it Top-Level and create
 
 Teams are groups of people from different departments that come together to handle various aspects of a business function.
 
-Admin Panel -> Agents -> Teams 
+****Admin Panel -> Agents -> Teams -> Add New Team***
 
 We will pull Agents from different Departments later.
 
-Click Teams and Add New Team
 
 
 
-![Teams](https://github.com/user-attachments/assets/e24b3f4a-b777-4e81-aa3b-439942c71db9)
+Title Team "Online Banking" and create.
 
-
-Title Team "Online Banking" and create
-
-![Online Banking](https://github.com/user-attachments/assets/c8a256f0-9055-4fa6-a610-7115630d0f1c)
-
-
-Allow anyone to create tickets
-
-Endusers can create tickets without having an account
-
-Admin Panel -> Settings -> User Settings
-
-![image](https://github.com/user-attachments/assets/9abbb37b-3bb4-4ed4-ba22-18b96d5e281b)
+![Create Team](https://github.com/user-attachments/assets/9112be0e-9182-4dec-b3d1-40db4e1e3627)
 
 
 
+5) Allow anyone to create tickets
 
-UNCHECK: unregistered users can create tickets and Save changes
+Endusers can create tickets without having an account.
 
-![image](https://github.com/user-attachments/assets/3d2d2ab5-878c-461c-b0bf-b0cd9c08e909)
+***Admin Panel -> Settings -> User Settings***
 
-Configure Agents (workers)
+Ensure "Registered Required" in unchecked.
 
-Admin Panel -> Agents -> Add New, Jane Doe
-
-![image](https://github.com/user-attachments/assets/c9fd36ee-f59b-48cf-94f2-5e86309d8bde)
-
-
-Fill out info for new Agent
-
-![image](https://github.com/user-attachments/assets/cc543aa9-b4da-4e39-b816-d7c7a12f4a50)
-
-Assign to SysAdmins Department as Supreme Admin
-
-![image](https://github.com/user-attachments/assets/bdef5491-ad69-4033-bb3d-cab9ddcf8137)
-
-Assign to Online Banking Team
-
-![image](https://github.com/user-attachments/assets/0255c4a4-c9fb-4f5f-b4b2-d959d0a3427f)
+![Required](https://github.com/user-attachments/assets/9ebb83a6-7c17-45f4-8c97-f44735bee611)
 
 
-Add Jane to the Online Banking Team
-
-Admin Panel- Teams- Online Banking- Memebers- Select Agent
-
-![image](https://github.com/user-attachments/assets/93a71821-0bea-43a9-a114-f386468abb43)
 
 
-Add another Agent, John Doe, Support Department, Level 1 Support Team
+
+
+6) Configure Agents (workers)
+
+**Admin Panel -> Agents -> Add New Agent**
+
+Jane Doe (Dept: SysAdmins) 
+
+These are mock employees so you can make up the contact info.
+
+
+![jane](https://github.com/user-attachments/assets/4e965269-d166-4d33-8ffb-e23f4f859dea)
+
+
+When creating the password, uncheck "Require password change at next login".
+
+![password](https://github.com/user-attachments/assets/41e44e2c-6ec7-4634-86e9-f90e9ad87a68)
+
+
+ username: jane
+
+ password: Password2
+
+
+ Add Jane to the SysAdmins Department and make her a Supreme Admin.
+
+![Jane Dept](https://github.com/user-attachments/assets/5139db13-6887-493a-980c-faa7f91ec6df)
+
+
+
+ Add Jane to the Online Banking Team and create.
+
+ ![Jane team](https://github.com/user-attachments/assets/a98bc5a1-11ca-4e98-9bb7-365f4e8b897e)
+
+
+**Admin Panel -> Agents -> Add New Agent**
+
+![john](https://github.com/user-attachments/assets/f6c111c1-81b7-4f4b-9673-e822c15badc9)
+
+
+John Doe (Dept: Support)
+
+ username: john
+
+ password: Password2
+
+Add John to the Support Department and give him Limited Access.
+
+![John Dept](https://github.com/user-attachments/assets/2bdc9cac-900c-442d-a8cb-b881a5f3acac)
+
+
+Add John to the Level 1 Support Team and create.
+
+![John team](https://github.com/user-attachments/assets/7ff27d6b-9ea7-4b34-a90c-ac1e6acfe7d6)
+
+
+ 
+7) Configure Users (customers)
+
+   These are end users who may report technical difficulties with products or services.
+
+**Agent Panel -> Users -> Add User**
+
+Karen
+
+![ad user](https://github.com/user-attachments/assets/bbd357aa-7fbe-41bd-9e38-f4a7e578b43b)
+
+
+8) Configure SLA
+
+SLA stands for service level agreement. It refers to a document that outlines a commitment between a service provider and a client, including details of the service, the standards the provider must adhere to, and the metrics to measure the performance.
+
+The SLA grace period is a specified amount of time before penalties are applied for failing to meet the SLA's standards.
+
+An SLA schedule is a time frame that defines when a service level agreement (SLA) is in effect.
+
+
+
+**Admin Panel -> Manage -> SLA -> Add New SLA Plan**
+
+Sev-A (Grace Period: 1 hour, Schedule: 24/7)
+
+![SLA A](https://github.com/user-attachments/assets/488e6401-7529-4a39-8e74-9448e4e06242)
+
+
+Sev-B (Grace Period: 4 hours, Schedule: 24/7)
+
+![SLA B](https://github.com/user-attachments/assets/4f44b432-a46d-4bff-b5e9-0006d8aff3db)
+
+
+Sev-C (Grace Period: 8 hours, Business Hours)
+
+![Sev C](https://github.com/user-attachments/assets/9b0021dd-d51f-447a-befd-7d0ab87c63ff)
+
+
+
+
+
+
 
 
 Configure Users (customers)
