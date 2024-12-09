@@ -13,7 +13,6 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - osTicket Admin/Agent Panel http://localhost/osTicket/scp/login.php
-- osTicket Support Center for endusers http://localhost/osTicket
 
 <h2>Operating Systems Used </h2>
 
@@ -296,74 +295,44 @@ Sev-C (Grace Period: 8 hours, Business Hours)
 ![Sev C](https://github.com/user-attachments/assets/9b0021dd-d51f-447a-befd-7d0ab87c63ff)
 
 
+9) Configure Help Topics (For when users create a ticket)
+
+**Admin Panel -> Manage -> Help Topics -> Add New Help Topic**
+
+Business Critical Outage: Report a Problem
+
+ ![Outage](https://github.com/user-attachments/assets/76259675-ff20-4fd8-8bbd-00dd28c12088)
 
 
+Personal Computer Issues: Report a Problem
+
+![PC issues](https://github.com/user-attachments/assets/5e104a8f-ddca-4f81-9f00-f7be15800226)
 
 
+Equipment Request: General Inquiry
+
+![Request](https://github.com/user-attachments/assets/2248921f-c93f-4fe1-b74a-c32f3e0b6714)
 
 
-Configure Users (customers)
+Password Reset: Access Issue
 
-Agent Panel -> Users -> Add New
+![reset](https://github.com/user-attachments/assets/30aa9f03-ffcf-4977-b7be-9663d8c2ff1c)
 
-![image](https://github.com/user-attachments/assets/1b7474f9-7880-4b86-b927-8d8244395e9a)
-
-Configure SLA
-
-Admin Panel -> Manage -> SLA- Add New SLA Plan
-
-SLA stands for service level agreement. It refers to a document that outlines a commitment between a service provider and a client, including details of the service, the standards the provider must adhere to, and the metrics to measure the performance.
-
-THe SLA grace period is a specified amount of time before penalties are applied for failing to meet the SLA's standards.
-
-An SLA schedule is a time frame that defines when a service level agreement (SLA) is in effect.
-
-Sev-A (Grace Period: 1 hour, Schedule: 24/7)
-
-![image](https://github.com/user-attachments/assets/9ca9f9c1-4f29-4cb6-ac56-ca62a030de97)
-
-
-Sev-B (Grace Period: 4 hours, Schedule: 24/7)
-
-![image](https://github.com/user-attachments/assets/e12e1d30-101b-4152-9988-e75d079106e4)
-
-Sev-C (Grace Period: 8 hours, Business Hours)
-
-![image](https://github.com/user-attachments/assets/e2f405c1-7ffa-4c80-abc6-414db57ffd61)
-
-Configure Help Topics (For when agents/users create a ticket)
-
-How to categorize the issue
-
-Admin Panel -> Manage -> Help Topics- Add New Help Topic
-
-Business Critical Outage
-
-![image](https://github.com/user-attachments/assets/88878752-51b3-439d-97c9-1e9689864409)
-
-
-Personal Computer Issues
-
-![image](https://github.com/user-attachments/assets/d70792be-26e5-41fb-8945-a8bf73adc622)
-
-
-Equipment Request
-
-![image](https://github.com/user-attachments/assets/8cea545f-2728-40d7-ae13-baf211515bed)
-
-
-Password Reset
-
-![image](https://github.com/user-attachments/assets/c1b4abc5-e305-43a8-98ad-7aa5cca6384f)
 
 
 Other
 
-![image](https://github.com/user-attachments/assets/f9fa40bf-7661-4bf3-8946-9739fc34d2dd)
+
+![other](https://github.com/user-attachments/assets/cea95a8e-1a5b-4c45-8652-d3adb547a88a)
 
 
-And that is how an Admin configures systems that are designed to be used by employees at a company.
 
+
+
+
+
+
+Congrats! You have now configured osTicket!
 
 
 
